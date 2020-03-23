@@ -9,6 +9,8 @@ gem 'sinatra-redirect-with-flash'
 gem 'pg'
 
 group :development do
+ gem "sinatra-contrib"
  gem "tux"
+ gem "rake"
 end
 

@@ -1,0 +1,15 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: geo_json_development
+  pool: 2
+  username:
+  password:
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: geo_json_production
+  pool: 2
+  username:
+  password:

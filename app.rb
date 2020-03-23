@@ -1,5 +1,5 @@
 require 'sinatra'
+require 'sinatra/reloader'
+require './environments'
+require './routes'
 
-get '/' do
-  "Hello, World!"
-end
