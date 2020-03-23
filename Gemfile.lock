@@ -16,6 +16,7 @@ GEM
     bond (0.5.1)
     byebug (11.1.1)
     concurrent-ruby (1.1.6)
+    geokit (1.13.1)
     i18n (1.8.2)
       concurrent-ruby (~> 1.0)
     minitest (5.14.0)
@@ -53,10 +54,6 @@ GEM
       rack-protection (= 2.0.8.1)
       sinatra (= 2.0.8.1)
       tilt (~> 2.0)
-    sinatra-flash (0.3.0)
-      sinatra (>= 1.0.0)
-    sinatra-redirect-with-flash (0.2.1)
-      sinatra (>= 1.0.0)
     thread_safe (0.3.6)
     tilt (2.0.10)
     tux (0.3.0)
@@ -74,13 +71,12 @@ PLATFORMS
 DEPENDENCIES
   activerecord
   byebug
+  geokit
   pg
   rake
   sinatra
   sinatra-activerecord
   sinatra-contrib
-  sinatra-flash
-  sinatra-redirect-with-flash
   tux
 
 RUBY VERSION

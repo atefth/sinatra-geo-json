@@ -11,10 +11,10 @@ end
 
 get '/radius' do
   points = Point.within_radius(params[:coordinates].values, params[:radius])
-  return points.to_json
+  return points.as_json.to_json
 end
 
 get '/polygon' do
-  points = Point.within_polygon(params[:coordinates][0].values)
-  return points.to_json
+  points = Point.within_polygon(params[:coordinates]["0"].values)
+  return points.as_json.to_json
 end
