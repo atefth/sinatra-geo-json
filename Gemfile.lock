@@ -14,6 +14,7 @@ GEM
       zeitwerk (~> 2.2)
     backports (3.17.0)
     bond (0.5.1)
+    byebug (11.1.1)
     concurrent-ruby (1.1.6)
     i18n (1.8.2)
       concurrent-ruby (~> 1.0)
@@ -72,6 +73,7 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord
+  byebug
   pg
   rake
   sinatra

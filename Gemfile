@@ -12,5 +12,6 @@ group :development do
  gem "sinatra-contrib"
  gem "tux"
  gem "rake"
+ gem "byebug"
 end
 
